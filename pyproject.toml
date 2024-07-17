@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "torch-transforms"
+version = "0.0.1"
+authors = [
+    {name = "Paul Schreiner", email = "paul@rokoko.com"},
+]
+description = "This is a repository implementing elementary rotations for pytorch."
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    'numpy',
+    'torch',
+]
